@@ -8,7 +8,7 @@ Themes are available and used out-of-the-box on any Site you create. There are a
 
 ![Site Design hierarchy](./introduction-to-themes/images/01.png)
 
-Themes are one of the most broad and flexible ways to add customizations, in the hierarchy of ways to design your Site's appearance. Themes are most commonly used for providing the most foundational basis for your Site that more specific tools (such as Master Pages<!--Add link when available--> and [Style Books](../style-books/creating-a-style-book.md)) can build on top of. However, you may also use themes to add more customizations that are not possible with those other methods.
+Themes are one of the most broad and flexible ways to add customizations, in the hierarchy of ways to design your Site's appearance. Themes are used for providing the most foundational basis for your Site that more specific tools (such as [Master Pages](../../creating-pages/defining-headers-and-footers/master-page-templates.md) and [Style Books](../style-books/creating-a-style-book.md)) can build on top of. However, you may also use themes to add more customizations that are not possible with those other methods.
 
 ## Developing Themes
 
@@ -43,12 +43,12 @@ Resources may be bundled into your theme or from other sources to bring together
 * The Resources Importer<!--Add link when available--> uses Site Templates to import files and content necessary to implement a theme.
 
 ```warning::
-   The Resources Importer is deprecated as of Liferay DXP 7.1. There is not yet a direct replacement for it.
+   The Resources Importer is deprecated as of Liferay DXP 7.1.
 ```
 
 ### Modifying Behavior
 
-Themes are also potentially a powerful tool for modifying the behavior of different parts of your Site. 
+Themes are also a powerful tool for modifying the behavior of different parts of your Site. 
 
 * You can add context variables usable in your Page Templates<!--Add link when available--> so that these templates can hook into the functionality of your theme.
 

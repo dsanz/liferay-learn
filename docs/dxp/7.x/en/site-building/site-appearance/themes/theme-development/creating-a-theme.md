@@ -34,13 +34,13 @@ Run the Liferay Theme Generator with these steps:
 1. Type a name for your theme at the prompt. Press Enter to use the default, "My Liferay Theme".
 
     ```
-    ? What would you like to call your theme? Example
+    ? What would you like to call your theme? (My Liferay Theme)
     ```
 
 1. Type an ID for your theme at the prompt. When the theme is generated, the ID will determine the name of the folder that your theme is built inside of. You can also press Enter to use a default ID based on the name.
 
     ```
-    ? What id would you like to give to your theme? (example)
+    ? What id would you like to give to your theme? (my-liferay-theme)
     ```
 
 1. Use the arrow keys to select the version of Liferay DXP to build the theme for at the prompt. You can generate a theme for 7.2 or 7.3 with version 10.x.x of the Liferay Theme Generator.

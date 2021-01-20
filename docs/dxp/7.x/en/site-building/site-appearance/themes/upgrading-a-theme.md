@@ -1,10 +1,10 @@
 # Upgrading a Theme
 
-Themes developed for previous versions of Liferay DXP must be upgraded in order to be deployed to a new version. The `gulp upgrade` task updates Liferay DXP version references and theme dependencies. This allows you to deploy your theme to the newer version of Liferay DXP.
+Themes developed for previous versions of Liferay DXP must be upgraded in order to be deployed to a new version. The `gulp upgrade` task updates Liferay version references and theme dependencies. This allows you to deploy your theme to newer versions of Liferay.
 
 ## Prerequisites
 
-The Liferay Theme Generator is used to run the upgrade task. If you have not already done so, then you must install it with this command:
+The Liferay Theme Generator is used to run the upgrade task. If you have not done so, then install it with this command:
 
 ```bash
 npm install -g generator-liferay-theme@10.x.x

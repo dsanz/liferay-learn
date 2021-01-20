@@ -4,12 +4,12 @@ Site Appearance
 .. toctree::
    :maxdepth: 4
 
-   site-appearance/site-appearance-overview.md
+   site-appearance/site-appearance.md
    site-appearance/style_books.rst
-   ../../creating-pages/defining-headers-and-footers/master-pages-templates.md
+   creating-pages/defining-headers-and-footers/master-page-templates.md
    site-appearance/themes.rst
 
--  :doc:`/site-building/site-appearance/site-appearance-overview`
+-  :doc:`/site-building/site-appearance/site-appearance`
 
 Style Books
 -----------
@@ -27,3 +27,9 @@ Themes
 
 -  :doc:`/site-building/site-appearance/themes/introduction-to-themes`
 -  :doc:`/site-building/site-appearance/themes/upgrading-a-theme`
+
+Theme Development
+~~~~~~~~~~~~~~~~~
+
+-  :doc:`/site-building/site-appearance/themes/theme-development/creating-a-theme`
+-  :doc:`/site-building/site-appearance/themes/theme-development/creating-a-thumbnail-for-your-theme`

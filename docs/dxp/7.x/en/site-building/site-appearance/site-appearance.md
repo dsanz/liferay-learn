@@ -1,10 +1,10 @@
 # Site Appearance
 
-(Maybe paragraph or two talking about the general flexibility?)
+The design and functionality of a Liferay site can be adjusted and customized through a variety of complementary mechanisms. The following table summarizes and contrasts how certain tasks can be achieved:
 
-* Maybe diagram kinda like that pyramid but... different?
-* The ordering of that one seems weird. Natural order I would expect to be, lower levels are things that higher levels may depend on to some degree
-* That would be more like: more like fragments (which can be put into anything else, seems like lowest level) -> master page templates (possibly also page templates in general) -> style books -> themes
+[table]
+
+<!-- Reference to diagram? -->
 
 
 | Features                                | Style Books | Page Templates | Themes |
@@ -15,6 +15,17 @@
 | Customize styles, spacing, colors, etc. |      ✓      |                |    ✓   |
 | Add extra functionality                 |             |                |    ✓   |
 
+## (Master?) Page Templates
+
+[Screenshot of creating a master page template?]
+
+Introduce concept of Master Page Template, as well as other Page Templates (and the distinction between the two). Link to respective articles
+
+## Style Books
+
+[Screenshot of creating a style book?]
+
+Introduce Style Books, note a few really general use cases to give the idea. Note that all the levels "above" (page templates, fragments, etc.) all use these in their displays
 
 ## Widget/Fragment Appearance
 
@@ -28,18 +39,6 @@ Introductions and links to:
 
 Note that these can be embedded into many of the lower "layers"
 * Does that mean order should be reversed? Feels more natural to start with lowest level though, esp. since that puts themes last
-
-## (Master?) Page Templates
-
-[Screenshot of creating a master page template?]
-
-Introduce concept of Master Page Template, as well as other Page Templates (and the distinction between the two). Link to respective articles
-
-## Style Books
-
-[Screenshot of creating a style book?]
-
-Introduce Style Books, note a few really general use cases to give the idea. Note that all the levels "above" (page templates, fragments, etc.) all use these in their displays
 
 ### Style Book Token Definitions
 
