@@ -4,7 +4,7 @@ Theme Development
 .. toctree::
    :maxdepth: 2
 
-   theme-development/creating-a-theme.md
+   theme-development/getting-started/setting-up-the-environment-and-creating-a-theme.md
    theme-development/creating-a-thumbnail-for-your-theme.md
 
    theme-development/styling.rst
@@ -12,7 +12,7 @@ Theme Development
    theme-development/bundling_resources.rst
    theme-development/modifying_behavior.rst
 
-- :doc:`/site-building/site-appearance/themes/theme-development/creating-a-theme`
+- :doc:`/site-building/site-appearance/themes/theme-development/getting-started/setting-up-the-environment-and-creating-a-theme`
 - :doc:`/site-building/site-appearance/themes/theme-development/creating-a-thumbnail-for-your-theme`
 
 Styling
