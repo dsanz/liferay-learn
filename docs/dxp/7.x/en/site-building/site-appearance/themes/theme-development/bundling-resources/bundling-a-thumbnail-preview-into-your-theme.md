@@ -2,7 +2,7 @@
 
 A theme's thumbnail is the visual representation of how the theme looks when it is deployed to a Site. The thumbnail is shown in the theme selection menu when you choose a theme for a Site's Public Pages. A custom theme with no thumbnail set has a placeholder image.
 
-![A custom theme with a placeholder image.](./creating-a-thumbnail-for-your-theme/images/01.png)
+![A custom theme with a placeholder image.](./bundling-a-thumbnail-preview-into-your-theme/images/01.png)
 
 ## Adding the Thumbnail
 
@@ -34,7 +34,7 @@ Follow these steps to create a thumbnail and apply it to your theme:
 
 1. Click the *Change Current Theme* button to view all available themes with their thumbnails and verify the change.
 
-![The chosen image displays as the thumbnail when selecting your theme.](./creating-a-thumbnail-for-your-theme/images/02.png)
+![The chosen image displays as the thumbnail when selecting your theme.](./bundling-a-thumbnail-preview-into-your-theme/images/02.png)
 
 ```note::
    You may need to clear your browser's cache for the new thumbnail to display on the screen.
