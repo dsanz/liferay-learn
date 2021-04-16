@@ -36,7 +36,7 @@ For example, you can [embed widgets in your theme](./theme-development/templatin
 
 Resources may be bundled into your theme or from other sources to bring together many sources of code at once. This allows you to adapt your strategy depending on how you want to deploy different changes.
 
-* [Themelets](./theme-development/bundling-resources/adding-a-themelet-to-a-theme.md) allow you to customize a small number of files, in a modular way that can apply to many themes.
+* [Themelets](./theme-development/bundling-resources/bundling-and-installing-resources-into-your-theme-via-themelets.md) allow you to customize a small number of files, in a modular way that can apply to many themes.
 
 * Theme contributors<!--Add link when available--> allow you to package UI resources and customizations that can be deployed independently of a theme.
 
