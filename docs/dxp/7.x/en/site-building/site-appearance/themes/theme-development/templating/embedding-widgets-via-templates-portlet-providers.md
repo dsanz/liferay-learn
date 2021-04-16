@@ -26,3 +26,10 @@ For example, this macro embeds a navigation menu into the chosen place in your t
 Once you have added the embedded widget to your template, run `gulp deploy` to build your theme with the changes. The deployed theme now contains the embedded widget in the location you chose.
 
 <!-- When available, add more information referencing article as to embedding widgets by function (developer tutorial) -->
+
+<!-- TODO: include the portlet provider concept as an alternative way to embed portlets. Consider the following articles:
+
+   https://help.liferay.com/hc/es/articles/360029067031-Embedding-Portlets-in-Themes-by-Entity-Type-and-Action
+   https://help.liferay.com/hc/es/articles/360029067051-Setting-Default-Preferences-for-an-Embedded-Portlet
+   
+-->
