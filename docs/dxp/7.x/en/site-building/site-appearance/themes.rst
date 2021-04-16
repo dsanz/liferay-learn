@@ -13,7 +13,7 @@ Theme Development
 -----------------
 
 - :doc:`/site-building/site-appearance/themes/theme-development/getting-started/setting-up-the-environment-and-creating-a-theme`
-- :doc:`/site-building/site-appearance/themes/theme-development/creating-a-thumbnail-for-your-theme`
+- :doc:`/site-building/site-appearance/themes/theme-development/bundling-resources/creating-a-thumbnail-for-your-theme`
 
 Styling
 ~~~~~~~
