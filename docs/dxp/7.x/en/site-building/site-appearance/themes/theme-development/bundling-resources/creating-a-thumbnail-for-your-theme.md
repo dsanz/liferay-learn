@@ -14,6 +14,8 @@ Follow these steps to create a thumbnail and apply it to your theme:
 
 <!-- Very skeptical as to the accuracy of this limitation, since it seems like thumbnails definitely exist outside of these dimensions, and images still seem awkwardly cropped in the UI whether they are set to this size or not. -->
 
+<!-- Yeah we should check this in a 7.3 vanilla instalation -->
+
 1. Save the image with the name `thumbnail.png` in your theme's `src/images/` folder. If this folder doesn't exist yet, create it.
 
 1. Redeploy your theme:
