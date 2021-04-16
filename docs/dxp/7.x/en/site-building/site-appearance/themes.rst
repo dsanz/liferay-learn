@@ -19,16 +19,12 @@ Styling
 ~~~~~~~
 Coming soon!
 
-Designing Pages
-~~~~~~~~~~~~~~~
+Templating
+~~~~~~~~~~
 
--  :doc:`/site-building/site-appearance/themes/theme-development/templating/embedding-widgets-in-your-theme`
+-  :doc:`/site-building/site-appearance/themes/theme-development/templating/embedding-widgets-via-templates-portlet-providers`
 
 Bundling Resources
 ~~~~~~~~~~~~~~~~~~
 
 -  :doc:`/site-building/site-appearance/themes/theme-development/bundling-resources/adding-a-themelet-to-a-theme`
-
-Modifying Behavior
-~~~~~~~~~~~~~~~~~~
-Coming soon!
