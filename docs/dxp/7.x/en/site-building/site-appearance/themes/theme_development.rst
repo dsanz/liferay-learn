@@ -10,7 +10,6 @@ Theme Development
    theme-development/styling.rst
    theme-development/templating.rst
    theme-development/bundling_resources.rst
-   theme-development/modifying_behavior.rst
 
 - :doc:`/site-building/site-appearance/themes/theme-development/getting-started/setting-up-the-environment-and-creating-a-theme`
 - :doc:`/site-building/site-appearance/themes/theme-development/creating-a-thumbnail-for-your-theme`
