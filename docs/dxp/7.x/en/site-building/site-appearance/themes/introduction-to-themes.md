@@ -24,7 +24,7 @@ You can also configure a custom [Style Book Token Definition](../style-books/sty
 
 Themes are also a complement to Page Templates<!--Add link when available--> or Master Pages<!--Add link when available--> for designing a template for your Site's pages. It can be used in conjunction with these other methods, which add on top of the design from your theme.
 
-For example, you can [embed widgets in your theme](./theme-development/designing-pages/embedding-widgets-in-your-theme.md) to make them a permanent fixture of your Site's pages.
+For example, you can [embed widgets in your theme](./theme-development/templating/embedding-widgets-in-your-theme.md) to make them a permanent fixture of your Site's pages.
 
 <!-- I'm not sure if the other topics listed under Templating in the Journeys would all go under here, as some of them seem like they are not theme-specific topics. -->
 

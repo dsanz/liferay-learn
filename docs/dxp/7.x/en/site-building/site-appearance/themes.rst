@@ -22,7 +22,7 @@ Coming soon!
 Designing Pages
 ~~~~~~~~~~~~~~~
 
--  :doc:`/site-building/site-appearance/themes/theme-development/designing-pages/embedding-widgets-in-your-theme`
+-  :doc:`/site-building/site-appearance/themes/theme-development/templating/embedding-widgets-in-your-theme`
 
 Bundling Resources
 ~~~~~~~~~~~~~~~~~~

@@ -8,7 +8,7 @@ Theme Development
    theme-development/creating-a-thumbnail-for-your-theme.md
 
    theme-development/styling.rst
-   theme-development/designing_pages.rst
+   theme-development/templating.rst
    theme-development/bundling_resources.rst
    theme-development/modifying_behavior.rst
 
@@ -22,7 +22,7 @@ Coming soon!
 Designing Pages
 ---------------
 
--  :doc:`/site-building/site-appearance/themes/theme-development/designing-pages/embedding-widgets-in-your-theme`
+-  :doc:`/site-building/site-appearance/themes/theme-development/templating/embedding-widgets-in-your-theme`
 
 Bundling Resources
 ------------------
