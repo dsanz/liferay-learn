@@ -9,9 +9,9 @@ The design and functionality of a Liferay site can be adjusted and customized th
 
 | Features                                | Style Books | Page Templates | Themes |
 |-----------------------------------------|:-----------:|:--------------:|:------:|
-| Embed common fragments/widgets          |      ✓      |        ✓       |    ✓   |
+| Embed common fragments/widgets          |             |        ✓       |    ✓   |
 | Define common layouts for pages         |             |        ✓       |    ✓   |
-| Creation through the UI                 |      ✓      |        ✓       |        |
+| Managed through the UI                  |      ✓      |        ✓       |        |
 | Customize styles, spacing, colors, etc. |      ✓      |                |    ✓   |
 | Add extra functionality                 |             |                |    ✓   |
 
