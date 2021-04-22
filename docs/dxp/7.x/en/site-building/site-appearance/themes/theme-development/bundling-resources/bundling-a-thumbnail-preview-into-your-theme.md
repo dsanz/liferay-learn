@@ -1,12 +1,12 @@
 # Creating a Thumbnail for Your Theme
 
-A theme's thumbnail is the visual representation of how the theme looks when it is deployed to a Site. The thumbnail is shown in the theme selection menu when you choose a theme for a Site's Public Pages. A custom theme with no thumbnail set has a placeholder image.
+A theme's thumbnail is the visual representation of how the theme looks when it is applied to a Site. The thumbnail is shown in the theme selection menu when you choose a theme for a Site's Public Pages. A custom theme with no thumbnail set has a placeholder image.
 
 ![A custom theme with a placeholder image.](./bundling-a-thumbnail-preview-into-your-theme/images/01.png)
 
 ## Adding the Thumbnail
 
-Follow these steps to create a thumbnail and apply it to your theme:
+Follow these steps to create a thumbnail and bundling it in your theme:
 
 1. Take a screenshot of your theme to use for the thumbnail.
 
@@ -24,7 +24,7 @@ Follow these steps to create a thumbnail and apply it to your theme:
     gulp deploy
     ```
 
-1. Confirm the deployment in the Docker container console.
+1. Confirm the deployment in the liferay logs.
 
     ```
     STARTED my-liferay-theme_1.0.0
