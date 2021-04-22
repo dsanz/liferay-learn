@@ -54,7 +54,7 @@ Themes are also a powerful tool for modifying the behavior of different parts of
 
 * You can set variable values<!--Add link when available--> with your theme to influence the behavior of existing functionality in DXP.
 
-* You can add [token values](../style-books/style-book-token-definitions.md) that are used to define categories for styling with [Style Books](../style-books/creating-a-style-book.md).
+* You can add [token definitions](../style-books/style-book-token-definitions.md) that are used to define categories for styling with [Style Books](../style-books/creating-a-style-book.md).
 
 ## Upgrading Themes
 
@@ -69,6 +69,5 @@ The first step to upgrade your theme is to use the Liferay Theme Generator to ru
 A variety of tools are used in developing or extending themes. See these topics for more information:
 
 * Liferay Theme Generator<!--Add link when available-->
-* Setting up an NPM environment<!--Add link when available-->
-* Grade plugins<!--Add link when available-->
-* Building a Theme with Maven<!--Add link when available-->
+* Blade <!-- link when available -->
+<!-- this may just be a single link to all the tooling section. This section is the result of https://issues.liferay.com/browse/IFI-2289 -->
