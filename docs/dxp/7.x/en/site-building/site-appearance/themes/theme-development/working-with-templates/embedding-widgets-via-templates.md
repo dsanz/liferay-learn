@@ -1,4 +1,4 @@
-# Embedding Widgets in Your Theme
+# Embedding Widgets via Templates
 
 You can embed a widget in your theme to make it available on all pages using the chosen template file. When you are embedding a widget, you will need to reference the widget's portlet definition <!-- Add link to article explaining portlet definitions in DXP if we will have one? --> to provide some of the component's values.
 

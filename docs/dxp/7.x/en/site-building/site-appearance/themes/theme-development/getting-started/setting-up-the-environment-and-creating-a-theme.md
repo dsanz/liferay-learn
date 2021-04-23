@@ -4,14 +4,20 @@ Creating a theme is the first step in theme development. Once you have your own 
 
 ## Using the Liferay Theme Generator
 
+Themes are created using the Liferay Theme Generator. Liferay DXP 7.3 uses version 10.x.x of the Theme Generator.
+
+```note::
+   Older versions of the Liferay Theme Generator can be used to generate themes for older versions of Liferay DXP. . . . 
+```
+
 ### Installation
 
-Themes are created using the Liferay Theme Generator. If you have not already done so, then you must install it with this command:
+If you have not already done so, install the Liferay Theme Generator with this command:
 
 ```bash
 npm install -g generator-liferay-theme@10.x.x
 ```
-<!-- shouldn't we add a note indicating that older generator versions may be used to create themes for older liferay releases?. Just a link to older docs would do -->
+
 Install the Yeoman and Gulp dependencies with this command:
 
 ```bash
@@ -71,7 +77,9 @@ Run the Liferay Theme Generator with these steps:
 The theme is then generated and placed inside of a folder named after the ID you have chosen. You can now build and deploy it to your DXP instance by running `gulp deploy` from the theme's base folder.
 
 ## Using blade to create a theme
-<!-- point to the (ported version of) https://help.liferay.com/hc/en-us/articles/360029146851-Theme-Template -->
+
+Coming soon!
+<!-- Link to the (ported version of) https://help.liferay.com/hc/en-us/articles/360029146851-Theme-Template -->
 
 ## Additional Information
 

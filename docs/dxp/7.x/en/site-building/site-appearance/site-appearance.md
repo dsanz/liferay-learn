@@ -2,11 +2,6 @@
 
 The design and functionality of a Liferay site can be adjusted and customized through a variety of complementary mechanisms. The following table summarizes and contrasts how certain tasks can be achieved:
 
-[table]
-
-<!-- Reference to diagram? -->
-
-
 | Features                                | Style Books | Page Templates | Themes |
 |-----------------------------------------|:-----------:|:--------------:|:------:|
 | Embed common fragments/widgets          |             |        ✓       |    ✓   |
@@ -15,11 +10,14 @@ The design and functionality of a Liferay site can be adjusted and customized th
 | Customize styles, spacing, colors, etc. |      ✓      |                |    ✓   |
 | Add extra functionality                 |             |                |    ✓   |
 
-## (Master?) Page Templates
+## Master Page Templates
 
-[Screenshot of creating a master page template?]
+Coming soon!
+<!-- TODO:
 
-Introduce concept of Master Page Template, as well as other Page Templates (and the distinction between the two). Link to respective articles
+[Screenshot of creating a master page template]
+
+Introduce concept of Master Page Template, as well as other Page Templates (and the distinction between the two). Link to respective articles -->
 
 ## Style Books
 

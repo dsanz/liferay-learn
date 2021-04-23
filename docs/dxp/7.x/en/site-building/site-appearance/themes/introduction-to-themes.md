@@ -26,8 +26,6 @@ Themes are also a complement to Page Templates<!--Add link when available--> or 
 
 For example, you can [embed widgets in your theme](./theme-development/templating/embedding-widgets-via-templates-portlet-providers.md) to make them a permanent fixture of your Site's pages.
 
-<!-- I'm not sure if the other topics listed under Templating in the Journeys would all go under here, as some of them seem like they are not theme-specific topics. -->
-
 ```note::
     You can also create templates for your pages using `Master Pages <link>`__ or `Page Templates <link>`__.
 ```

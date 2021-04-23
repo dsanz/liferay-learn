@@ -8,7 +8,7 @@ Theme Development
    theme-development/bundling-a-thumbnail-preview-into-your-theme.md
 
    theme-development/styling.rst
-   theme-development/templating.rst
+   theme-development/working_with_templates.rst
    theme-development/bundling_resources.rst
 
 - :doc:`/site-building/site-appearance/themes/theme-development/getting-started/setting-up-the-environment-and-creating-a-theme`
@@ -18,10 +18,10 @@ Styling
 -------
 Coming soon!
 
-Templating
+Working with Tempaltes
 ----------
 
--  :doc:`/site-building/site-appearance/themes/theme-development/templating/embedding-widgets-via-templates-portlet-providers.md`
+-  :doc:`/site-building/site-appearance/themes/theme-development/working-with-templates/embedding-widgets-via-templates-portlet-providers.md`
 
 Bundling Resources
 ------------------

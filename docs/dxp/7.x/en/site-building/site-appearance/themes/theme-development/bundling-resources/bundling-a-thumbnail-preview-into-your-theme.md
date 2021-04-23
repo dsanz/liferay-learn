@@ -6,7 +6,7 @@ A theme's thumbnail is the visual representation of how the theme looks when it 
 
 ## Adding the Thumbnail
 
-Follow these steps to create a thumbnail and bundling it in your theme:
+Follow these steps to create a thumbnail and bundle it in your theme:
 
 1. Take a screenshot of your theme to use for the thumbnail.
 
