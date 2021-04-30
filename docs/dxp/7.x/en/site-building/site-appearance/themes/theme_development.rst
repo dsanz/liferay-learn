@@ -18,8 +18,8 @@ Styling
 -------
 Coming soon!
 
-Working with Tempaltes
-----------
+Working with Templates
+----------------------
 
 -  :doc:`/site-building/site-appearance/themes/theme-development/working-with-templates/embedding-widgets-via-templates-portlet-providers.md`
 

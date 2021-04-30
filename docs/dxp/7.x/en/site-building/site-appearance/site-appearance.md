@@ -2,17 +2,17 @@
 
 The design and functionality of a Liferay site can be adjusted and customized through a variety of complementary mechanisms. The following table summarizes and contrasts how certain tasks can be achieved:
 
-| Features                                | Style Books | Page Templates | Themes |
-|-----------------------------------------|:-----------:|:--------------:|:------:|
-| Embed common fragments/widgets          |             |        ✓       |    ✓   |
-| Define common layouts for pages         |             |        ✓       |    ✓   |
-| Managed through the UI                  |      ✓      |        ✓       |        |
-| Customize styles, spacing, colors, etc. |      ✓      |                |    ✓   |
-| Add extra functionality                 |             |                |    ✓   |
+| Features                                | Style Books | Master Page Templates | Themes |
+|-----------------------------------------|:-----------:|:---------------------:|:------:|
+| Embed common fragments/widgets          |             |           ✓           |    ✓   |
+| Define common layouts for pages         |             |           ✓           |    ✓   |
+| Managed through the UI                  |      ✓      |           ✓           |        |
+| Customize styles, spacing, colors, etc. |      ✓      |                       |    ✓   |
+| Add extra functionality                 |             |                       |    ✓   |
 
 ## Master Page Templates
 
-[Master Page Templates](../creating-pages/defining-headers-and-footers/master-page-templates.md) allow you to define elements for all of your pages using Fragments, especially headers and footers. You can use them to conform any number of pages on your Site to the look and feel you design.
+[Master Page Templates](../creating-pages/defining-headers-and-footers/master-page-templates.md) allow you to define common elements for your pages using Fragments, especially headers and footers. You can use them to conform any number of pages on your Site to the look and feel you design.
 
 ![Master Page Templates are a simple way to define elements common to all of your pages, such as headers and footers.](./site-appearance/images/01.png)
 
@@ -39,6 +39,6 @@ Fragments and widgets are the building blocks of your Site. There are many ways 
 
 ## Themes
 
-[Themes](./themes/introduction-to-themes.md) are a highly flexible tool for customizing the default look and feel of your Site. They provide a foundation that your [Style Books](#style-books) and [Page Templates](../creating-pages/adding-pages/creating-a-page-template.md) build on top of. Fragments and themes can also be embedded in the themes themselves to ensure a particular arrangement.
+[Themes](./themes/introduction-to-themes.md) are a highly flexible tool for customizing the default look and feel of your Site. They provide a foundation that your [Style Books](#style-books) and [Page Templates](../creating-pages/adding-pages/creating-a-page-template.md) build on top of. Widgets can also be embedded in the themes themselves to ensure a particular arrangement.
 
 ![Choosing a theme for your Site's pages can significantly alter the look and feel of your Site.](./site-appearance/images/03.png)
