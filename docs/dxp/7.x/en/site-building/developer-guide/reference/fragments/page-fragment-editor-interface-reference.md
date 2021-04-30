@@ -1,4 +1,4 @@
-# Page Fragment Editor Interface
+# Page Fragment Editor Interface Reference
 
 The Page Fragment editor's interface is organized into two tabs:
 
@@ -13,13 +13,17 @@ The code editor is split into four panes:
 
 **HTML:** Supports standard HTML, along with Liferay Portal specific tags and FreeMarker (using the [alternative (square bracket) syntax](https://freemarker.apache.org/docs/dgui_misc_alternativesyntax.html)) that can be used to add dynamic behavior.
 
+```tip::
+   Type ``$(`` to begin using auto-completion to find variable names. Type ``[@`` to use auto-completion to find taglib names.
+```
+
 **CSS:** Supports standard CSS.
 
 **JavaScript:** Supports standard JavaScript and JQuery. You can also access configuration values in the FreeMarker context in the JavaScript pane.
 
 **Preview:** provides a live preview of the component that updates as you write code. You can switch between desktop, mobile, tablet, and expanded views.
 
-![The Fragments editor provides an environment for creating all the parts of a Fragment.](./the-page-fragments-editor/images/01.png)
+![The Fragments editor provides an environment for creating all the parts of a Fragment.](./page-fragment-editor-interface-reference/images/01.png)
 
 ## Configuration
 
@@ -34,3 +38,7 @@ The Configuration tab provides input for adding configuration options to the Pag
 ```
 
 Configuration values are made available to the Page Fragment through the FreeMarker context in the HTML pane. You can combine configuration options with conditional values in the HTML to create dynamic experiences for the user. You can also access these values via JavaScript. See [Making Page Fragments Configurable](../../developing-page-fragments/adding-configuration-options-to-fragments.md) for more information.
+
+In DXP 7.3+, you can also select a checkbox near the top of the page to make your fragment cacheable. If this option is enabled, then the fragment is added to the cache when it is added to a page, improving the performance of pages with these fragments.
+
+![Check the Cacheable option to improve the performance of your pages by caching the fragment.](./page-fragment-editor-interface-reference/images/02.png)

@@ -9,6 +9,7 @@ Installing and Upgrading a Search Engine
    installing-and-upgrading-a-search-engine/solr.rst
 
 -  :doc:`/using-search/installing-and-upgrading-a-search-engine/installing-a-search-engine`
+-  :doc:`/using-search/installing-and-upgrading-a-search-engine/elasticsearch/upgrading_elasticsearch`
 
 Elasticsearch
 -------------
@@ -21,7 +22,6 @@ Elasticsearch
 -  :doc:`/using-search/installing-and-upgrading-a-search-engine/elasticsearch/troubleshooting-elasticsearch-installation`
 -  :doc:`/using-search/installing-and-upgrading-a-search-engine/elasticsearch/exercise-installing-elasticsearch`
 -  :doc:`/using-search/installing-and-upgrading-a-search-engine/elasticsearch/using-the-sidecar-or-embedded-elasticsearch`
-
 
 Solr
 ----

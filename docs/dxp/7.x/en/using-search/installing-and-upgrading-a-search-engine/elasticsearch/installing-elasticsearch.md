@@ -6,6 +6,10 @@ Here's how to install, configure, and start Elasticsearch on-premises.
    The Sidecar Elasticsearch server bundled with Liferay 7.3 uses the Elasticsearch OSS distribution. Do not install the OSS version for production. To run Liferay securely with Elasticsearch, you must install the Basic level of Elasticsearch at a minimum. See `Elastic's subscriptions page <https://www.elastic.co/subscriptions>`__ for more information.
 ```
 
+```note::
+   If you have Elasticsearch indexes used for primary data storage (storing data not backed by a database) you can bring that data into your new Elasticsearch cluster using the `snapshot and restore approach <./upgrading-elasticsearch/backing-up-elasticsearch.md>`__. Liferay's own Search Tuning indexes (for Result Rankings and Synyonyms) are primary storage indexes.
+```
+
 ## Environment Setup for Production-Like Installation
 
 ### Adding Hosts
@@ -63,6 +67,8 @@ Each Elasticsearch server is configured by its `[Elasticsearch Home]/config/elas
 
 Here are example single-node and multi-node Elasticsearch cluster configurations.
 
+See [Securing Elasticsearch](./securing-elasticsearch.md) to learn about authenticating and encrypting communication with the Elasticsearch server(s).
+
 ### Example: Single-Node Production Elasticsearch Cluster
 
 Here's an `elasticsearch.yml` configuration for a single-node cluster:
@@ -78,7 +84,7 @@ network.host: es-node1
 node.name: es-node1
 transport.port: 9300
 
-# Add security settings here
+# Additional security settings 
 ```
 
 This cluster called `LiferayElasticsearchCluster` has one node called `es-node1`.
@@ -167,6 +173,7 @@ If you're running in production, [secure communication between Liferay and Elast
 
 ## Additional Topics
 
+* [Securing Elasticsearch](./securing-elasticsearch.md)
 * [Liferay Enterprise Search](../../liferay_enterprise_search.md)
 * [Search Pages](../../search-pages-and-widgets/working-with-search-pages/search-pages.md)
 * [Administering and Tuning Search](../../search_administration_and_tuning.md)

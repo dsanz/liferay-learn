@@ -41,21 +41,21 @@ A simple 7.3 connector configuration enables production mode (`productionModeEna
 
     ```properties
     # In CE/DXP7.3, productionModeEnabled replaces operationMode (deprecated):
-    productionModeEnabled="true"
+    productionModeEnabled=B"true"
     networkHostAddresses=["http://es-node1:9200","http://es-node3:9201","http://es-node3:9202"]
     # In CE/DXP 7.3 the security settings are included in the ElasticsearchConfiguration
     # In CE/DXP 7.2 the security settings go in com.liferay.portal.search.elasticsearch7.configuration.XPackSecurityConfiguration.config
     # Authentication
-    #authenticationEnabled="true"
+    #authenticationEnabled=B"true"
     #username="elastic"
     #password="liferay"
 
     # TLS/SSL
     #networkHostAddresses=["https://es-node1:9200","https://es-node3:9201","https://es-node3:9202"]
-    #httpSSLEnabled="true"
+    #httpSSLEnabled=B"true"
     #truststoreType="pkcs12"
-    #trustStorePath="/PATH/TO/truststore.p12"
-    #trustStorePassword="secret"
+    #trustStorePath="/PATH/TO/elastic-nodes.p12"
+    #trustStorePassword="liferay"
 
     # Highly recommended for all non-prodcution usage (e.g., practice, tests, diagnostics):
     #logExceptionsOnly="false"
@@ -170,6 +170,10 @@ On Liferay 7.3, Re-index the [Workflow Metrics](../../../process-automation/work
 
 1. Click _Reindex All_.
 
+```note::
+   If you have Elasticsearch indexes used for primary data storage (storing data not backed by a database) you can bring that data into your new Elasticsearch cluster using the `snapshot and restore approach <./upgrading-elasticsearch/backing-up-elasticsearch.md>`__. Liferay's own Search Tuning indexes (for Result Rankings and Synyonyms) are primary storage indexes.
+```
+
 Now Liferay is indexing content into your remote Elasticsearch 7 installation.
 
 ## Available Liferay Connector Applications
@@ -193,6 +197,7 @@ Now that Liferay is connected to Elasticsearch, you can start using Elasticsearc
 
 ## Related Topics
 
+* [Securing Elasticsearch](./securing-elasticsearch.md)
 * Liferay Enterprise Search (Coming soon)
 * [Search Pages](../../search-pages-and-widgets/working-with-search-pages/search-pages.md)
 * Administering and Tuning Search (Coming soon)
